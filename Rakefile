@@ -2,6 +2,15 @@ require "rubygems"
 require "bundler/setup"
 require "stringex"
 
+
+
+## -- LFTP Deploy config -- ##
+ftp_user       = "mateusz"
+ftp_server     = "serwer1355810.home.pl"
+ftp_target     = "/"
+deploy_default = "lftp"
+
+
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "user@domain.com"
@@ -9,7 +18,6 @@ ssh_port       = "22"
 document_root  = "~/website.com/"
 rsync_delete   = false
 rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
@@ -368,6 +376,13 @@ def ok_failed(condition)
     puts "FAILED"
   end
 end
+
+desc "Deploy website via LFTP"
+task :lftp do
+  puts "## Deploying website via LFTP"
+  ok_failed system("lftp -e 'mirror -R --ignore-time --delete -v #{public_dir} #{ftp_target}; bye' -u #{ftp_user} #{ftp_server}")
+end
+
 
 def get_stdin(message)
   print message
