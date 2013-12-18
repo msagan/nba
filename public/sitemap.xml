@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2013-12-13T00:59:22+01:00</lastmod>
+        <loc>http://nobullshitallowed.pl/blog/2013/12/18/kiedy-jestem-sam/</loc>
+        <lastmod>2013-12-18T01:06:59+01:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
-        <lastmod>2013-12-13T00:59:22+01:00</lastmod>
+        <loc>http://nobullshitallowed.pl/blog/archives/</loc>
+        <lastmod>2013-12-18T01:06:59+01:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/robots.txt</loc>
+        <loc>http://nobullshitallowed.pl/</loc>
+        <lastmod>2013-12-18T01:06:59+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://nobullshitallowed.pl/robots.txt</loc>
         <lastmod>2013-12-13T00:37:44+01:00</lastmod>
     </url>
 </urlset>

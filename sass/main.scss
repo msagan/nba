@@ -43,14 +43,14 @@ h1 {
 	font-style: $heading-font-style;
 	text-align: $page-title-align;
 	}
-	
 h2 {
 	margin-top: $subheading-top-spacing;
 	font-size: $subheading-font-size;
 	font-weight: $subheading-font-weight;
 	font-style: $subheading-font-style;
 	}
-		
+.subtitle{margin-top: 2em; margin-bottom: 2em; }
+h2.subtitle{text-align: center; margin-top: 0px;}
 .wrap {
 	margin: 0 auto;
 	width: $content-width;
@@ -70,9 +70,10 @@ h2 {
 	}
 
 /* The main blog header */
+.borderless{border: 0;}
 header {
 	margin-bottom: $space-between-posts/2*1em;
-	padding: $header-spacing 0;
+	padding: 75px 0;
 	border-bottom: 1px solid $light-gray;
 	text-align: center;
 	

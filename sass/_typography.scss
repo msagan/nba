@@ -1,6 +1,5 @@
 $font-path: "../font/";
 
-@include font-face('sorts-mill-goudy', '#{$font-path}GoudyStM-webfont');
 @include font-face('sorts-mill-goudy-italic', '#{$font-path}GoudyStM-Italic-webfont');
 @include font-face('museo-sans', '#{$font-path}MuseoSans');
 @include font-face('sofia-pro-light', '#{$font-path}SofiaProLight-webfont');
@@ -8,3 +7,4 @@ $font-path: "../font/";
 @include font-face('governor', '#{$font-path}governor-webfont');
 @include font-face('nevis', '#{$font-path}nevis-webfont');
 @include font-face('calluna-regular', '#{$font-path}Calluna-Regular-webfont');
+@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy&subset=latin,latin-ext);

@@ -1,3 +1,8 @@
+##To deploy
+login to ftp account
+set ftp:ssl-allow no
+mirror -R --ignore-time --delete -v public /; bye
+
 ## What is Octopress?
 
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.

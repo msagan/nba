@@ -380,7 +380,7 @@ end
 desc "Deploy website via LFTP"
 task :lftp do
   puts "## Deploying website via LFTP"
-  ok_failed system("lftp -e 'mirror -R --ignore-time --delete -v #{public_dir} #{ftp_target}; bye' -u #{ftp_user} #{ftp_server}")
+  ok_failed system("lftp -e 'set ftp:ssl-allow no; mirror -R --ignore-time --delete -v #{public_dir} #{ftp_target}; bye' -u #{ftp_user} #{ftp_server}")
 end
 
 
