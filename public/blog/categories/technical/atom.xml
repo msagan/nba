@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Technical | No Bullshit Allowed]]></title>
+  <title><![CDATA[Kategoria: Technical | No Bullshit Allowed]]></title>
   <link href="http://nobullshitallowed.pl/blog/categories/technical/atom.xml" rel="self"/>
   <link href="http://nobullshitallowed.pl/"/>
-  <updated>2013-12-18T01:07:03+01:00</updated>
+  <updated>2013-12-18T01:17:17+01:00</updated>
   <id>http://nobullshitallowed.pl/</id>
   <author>
     <name><![CDATA[Sagan]]></name>

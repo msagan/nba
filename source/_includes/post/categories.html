@@ -15,14 +15,14 @@
 		{% if post.author %}
 			on
 		{% else %}
-			Tagged under
+			Podobne trufelki:
 		{% endif %}
     {{ post.categories | category_links }}
   {% else %}
 		{% if page.author %}
 			on
 		{% else %}
-			Tagged under
+			Podobne trufelki:
 		{% endif %}
     {{ page.categories | category_links }}
 	{% endif %}
