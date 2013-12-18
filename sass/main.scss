@@ -2,7 +2,8 @@
 @import "typography";
 @import "variables";
 @import "responsive";
-
+.cross{text-decoration: line-through; display: inline; }
+.inline{display: inline;}
 *::selection {
 	background: $main-color;
 	color: $white;
